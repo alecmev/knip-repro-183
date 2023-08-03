@@ -1,0 +1,15 @@
+{
+  "packageManager": "yarn@3.6.1",
+  "type": "module",
+  "dependencies": {
+    "@babylonjs/core": "^4.2.2",
+    "@babylonjs/inspector": "^4.2.2",
+    "@babylonjs/loaders": "^4.2.2",
+    "@tsconfig/esm": "^1.0.4",
+    "@tsconfig/node20": "^20.1.0",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/node": "^20.4.6",
+    "knip": "^2.17.3",
+    "typescript": "^5.1.6"
+  }
+}

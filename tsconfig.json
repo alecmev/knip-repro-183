@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "@tsconfig/node20/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json",
+    "@tsconfig/esm/tsconfig.json"
+  ],
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "Node16",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "lib": ["dom"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "tsBuildInfoFile": "dist/.tsbuildinfo"
+  }
+}
